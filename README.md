@@ -17,7 +17,7 @@ Para a tabela 1, tem-se o intervalo de 2000 a 2020, assim, foram abertas 20 plan
 
 ## R Studio
 
-Após a extração das bases, foram utilizados algumas bibliotecas disponíveis no R Studio para a elaboração deste teste, sendo elas, readxl, stringr, dplyr, tidyverse, tidyr e lubridate.
+Após a extração das bases, foram utilizadas algumas bibliotecas disponíveis no R Studio para a elaboração deste teste, sendo elas, readxl, stringr, dplyr, tidyverse, tidyr e lubridate.
 
 Com o código disponibilizado, utilizando o stringr, foram separadas as planilhas de acordo com as iniciais mencionadas no item anterior e compilados todos os anos como data.frame. Feito isso, com a função gather, banco tidyr, pivota-se as colunas referentes aos meses e o resultado são duas novas colunas, "month" e a outra contendo o volume. 
 
