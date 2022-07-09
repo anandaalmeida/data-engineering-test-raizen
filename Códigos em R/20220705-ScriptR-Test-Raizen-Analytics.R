@@ -66,7 +66,7 @@ final <- compact_all_pivot %>% select(year_month, ESTADO, COMBUSTÍVEL, UNIDADE,
 colnames(final) <- c("year_month", "uf", "product", "unit", "volume", "created_at")
 
 # Exportando 
-write.csv2(final, "Venda-Combustíveis-UF-Produto.csv", row.names = FALSE)
+readr::write_excel_csv(final, "Venda-Combustíveis-UF-Produto.csv")
 
 ##################################################################################################
 # Vendas, pelas distribuidoras¹, de óleo diesel por tipo e Unidade da Federação - 2013-2020 (m3) #
@@ -105,4 +105,4 @@ final <- compact_all_pivot %>% select(year_month, ESTADO, COMBUSTÍVEL, UNIDADE,
 colnames(final) <- c("year_month", "uf", "product", "unit", "volume", "created_at")
 
 # Exportando 
-write.csv2(final, "Venda-Diesel-UF-Tipo.csv", row.names = FALSE)
+readr::write_excel_csv(final, "Venda-Diesel-UF-Tipo.csv")
