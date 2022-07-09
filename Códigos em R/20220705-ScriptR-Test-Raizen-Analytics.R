@@ -5,9 +5,7 @@
 library(readxl)
 library(stringr)
 library(dplyr)
-library(tidyverse)
 library(tidyr)
-library(lubridate)
 
 ######################
 # Separando os dados #
