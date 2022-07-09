@@ -25,7 +25,7 @@ Detalhando o código disponibilizado em R, utilizando as bibliotecas `readxl` e 
 
 ![image](https://user-images.githubusercontent.com/37222393/178125013-58351464-cbf7-4390-a752-6dcd7a44b00b.png)
 
-Para incluir a coluna "year_month", com a classificação de data, solicitada pelo teste, utilizei a função ***mutate***, banco `dplyr` para alterar a coluna "month" do que era "Jan" para 01 e assim por diante. Então, ainda utilizando a mesma função, criei a nova coluna onde fiz a concatenação da coluna "ANO" com "month". Para finalizar as solicitações do teste, inclui a coluna "created_at", que informa a data e a hora que a extração foi realizada.  
+Para a classificação de data solicitada pelo teste, utilizei a função ***mutate***, banco `dplyr`, para alterar a coluna "month". O que era "Jan", alterei para "01" e assim por diante. Então, ainda utilizando a mesma função, ***mutate***, criei a nova coluna, "year_month", onde fiz a concatenação da coluna "ANO" com "month". Para finalizar as solicitações do teste, inclui a coluna "created_at", que informa a data e a hora que a extração foi realizada.  
 
 ![image](https://user-images.githubusercontent.com/37222393/178125248-ff93dc28-40d1-4ce5-9430-c15b40a5072f.png)
 
