@@ -27,7 +27,11 @@ Detalhando o código disponibilizado em R, utilizando as bibliotecas `readxl` e 
 
 Para incluir a coluna "year_month", com a classificação de data, solicitada pelo teste, utilizei a função ***mutate***, banco `dplyr` para alterar a coluna "month" do que era "Jan" para 01 e assim por diante. Então, ainda utilizando a mesma função, criei a nova coluna onde fiz a concatenação da coluna "ANO" com "month". Para finalizar as solicitações do teste, inclui a coluna "created_at", que informa a data e a hora que a extração foi realizada.  
 
+![image](https://user-images.githubusercontent.com/37222393/178125248-ff93dc28-40d1-4ce5-9430-c15b40a5072f.png)
+
 Por fim, com a função ***select***, banco `dplyr`, selecionei apenas as colunas de interesse do teste, renomeei para melhor identificação e realizei a exportação com a função ***readr::write_excel_cs***, banco `readxl`.
+
+![image](https://user-images.githubusercontent.com/37222393/178125257-353482f6-0c8c-468f-89c6-3599249fa912.png)
 
 Abaixo disponibilizo os dados no formato `csv`:
 
